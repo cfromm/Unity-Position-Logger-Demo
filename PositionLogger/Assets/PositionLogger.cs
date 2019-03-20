@@ -117,4 +117,9 @@ public class PositionLogger : MonoBehaviour {
 
     }
 
+    public void OnApplicationQuit()
+    {
+        trialStreams.Close();
+
+    }
 }
